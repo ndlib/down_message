@@ -15,7 +15,9 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
+      - /bin/pwd
+      - /bin/ls -l
 artifacts:
   type: zip
   files:
-    - target/*
+    - *
