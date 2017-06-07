@@ -19,5 +19,5 @@ phases:
       - /bin/ls -l
 artifacts:
   type: zip
-  files:
-    - **/*
+  files: 
+  - '**/*'
