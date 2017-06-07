@@ -18,6 +18,7 @@ phases:
       - /bin/pwd
       - /bin/ls -l
 artifacts:
+  type: zip
   files:
     - file*
     - target/*
