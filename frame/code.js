@@ -1,6 +1,6 @@
 // Call the documentReady() function to use this code
 const documentReady = (links) => {
-  replaceContent('https://resources.library.nd.edu/frame/frame.html', links)
+  replaceContent('https://down.library.nd.edu/frame/frame.html', links)
 }
 
 // Generic function to replace content
