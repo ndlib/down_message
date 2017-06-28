@@ -18,8 +18,8 @@ phases:
       - /bin/pwd
       - /bin/ls -l
       - aws s3 sync . s3://down.library.nd.edu/ --exclude "*" --include "*.html"
-artifacts:
-  type: zip
-  files: 
-  - '**/*'
-  discard_paths: yes
+#artifacts:
+#  type: zip
+#  files: 
+#  - '**/*'
+#  discard_paths: yes
